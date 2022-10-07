@@ -1,0 +1,164 @@
+/* table style starts */
+
+
+.rwdtable {
+    margin: auto;
+    margin-top: 2vh;
+    min-width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rwdtable tr:first-child {
+    padding-top: 13px;
+    /* border-top: none; */
+    background: #f8f9fc;
+    color: #525252;
+  }
+  
+  .rwdtable tr {
+    border: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
+    background-color: #ffffff;
+  }
+  
+  .rwdtable th {
+    font-size: 12px;
+    display: none;
+  }
+  
+  .rwdtable td {
+    display: block;
+  }
+  
+  .rwdtable td:first-child {
+    margin-top: 0.5em;
+  }
+  
+  .rwdtable td:last-child {
+    margin-bottom: 0.5em;
+  }
+  
+  .rwdtable td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .rwdtable th,
+  .rwdtable td {
+    text-align: left;
+  }
+  
+  .rwdtable {
+    color: #333;
+    border-radius: 0.4em;
+    overflow: hidden;
+  }
+  
+  .rwdtable tr {
+    border-color: #bfbfbf;
+  }
+  
+  .rwdtable th,
+  .rwdtable td {
+    padding: 0.5em 1em;
+  }
+  @media screen and (max-width: 601px) {
+    .rwdtable tr:nth-child(2) {
+      border-top: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .rwdtable tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+    .rwdtable td:before {
+      display: none;
+    }
+    .rwdtable th,
+    .rwdtable td {
+      display: table-cell;
+      padding: 0.25em 0.5em;
+    }
+    /* .rwdtable th:first-child,
+    .rwdtable td:first-child {
+      padding-left: 0;
+    } */
+    .rwdtable th:last-child,
+    .rwdtable td:last-child {
+      padding-right: 0;
+    }
+    .rwdtable th {
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+    .rwdtable td {
+      padding: 0.5em !important;
+      color: #667085;
+      font-size: 14px;
+    }
+  }
+  
+  /* table styling end */
+
+
+
+.moreIcon {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .moreIconContainer {
+    display: flex;
+  }
+  
+  .moreActionsCard {
+    right: 40px;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 180px;
+    height: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .actionButtonNames {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    margin-left: 10%;
+  }
+  
+  .actionsButtonContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .actionsButtonContainer:hover {
+    background-color: #ebebeb;
+  }
+  .actionsButtonIcons {
+    font-size: 20px;
+  }
+
+  .editIcons {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .deleteIcons {
+    color:red;
+    font-size: 20px;
+    cursor: pointer;
+
+  }

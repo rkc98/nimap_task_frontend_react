@@ -1,0 +1,18 @@
+.navigationContainer{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(255, 67, 67);
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navlink:hover{
+    color: yellowgreen;
+}

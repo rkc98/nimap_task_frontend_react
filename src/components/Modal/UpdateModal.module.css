@@ -1,0 +1,80 @@
+/* styling for bill details container starts */
+.innerModalBackGround {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  
+  .billDetailsModal {
+    width: 400px;
+    /* height: 400px; */
+    background-color: #f9f9f9;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    overflow: auto;
+  }
+
+  input,select{
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
+  .HeaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button{
+    display: flex;
+    align-self: center;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    background-color: maroon;
+    padding: 8px
+  }
+
+  .fieldWrapper{
+    margin-top:  20px;
+    display: flex;
+    /* gap: 20px; */
+  }
+
+  .buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .errorMessage{
+    margin:0;
+    padding:0;
+    margin-top: 5px;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.successMessage{
+    margin:0;
+    padding: 0;
+    margin-top: 5px;
+    color: green;
+    margin-bottom: 5px;
+}
+  
+  

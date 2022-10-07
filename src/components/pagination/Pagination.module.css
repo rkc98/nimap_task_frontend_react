@@ -1,0 +1,40 @@
+.paginationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 11px;
+  height: 50px;
+  background: #f8f9fc;
+  /* Gray/50 */
+  border: 1px solid #c6c6c6;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.paginationButton {
+  height: 36px;
+  padding: 8px 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  /* Gray/300 */
+  border: 1px solid #d0d5dd;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.paginationPageCount {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Gray/700 */
+  color: #344054;
+}
